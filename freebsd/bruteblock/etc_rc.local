@@ -1,0 +1,1 @@
+ipfw -q add deny ip from "table(1)" to me
