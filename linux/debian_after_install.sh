@@ -1,5 +1,7 @@
 #!/bin/bash
 
+apt-get update
+
 # install locale 
 apt-get install locales
 dpkg-reconfigure locales
